@@ -1,0 +1,25 @@
+.section-nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 1px solid $light-gray;
+	position: relative;
+}
+
+.section-list {
+  display: flex;
+}
+
+.section-list li {
+  font-family: $sans-serif;
+  margin: 10px 10px;
+}
+
+.section-list li:hover {
+  background-color: $light-gray;
+  text-decoration: underline;
+}
+
+.section-list li:last-of-type {
+  text-transform: uppercase;
+}
